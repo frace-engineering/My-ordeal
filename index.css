@@ -112,7 +112,7 @@ span:nth-of-type(3){
 @media screen and (max-width:400px) {
     body{
         background-color: #edf;
-        margin:20px;
+        margin:0px;
         padding:0px;
         display:grid;
         height:1200px;
