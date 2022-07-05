@@ -108,3 +108,115 @@ p{
 span:nth-of-type(3){
     color:#f15025;
 }
+
+@media screen and (max-width:600px) {
+    body{
+        background-color: #edf;
+        margin:20px;
+        padding:0px;
+        display:grid;
+        height:1200px;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+        grid-template-areas: 
+        "a a a a a a a a a a a a"
+        "c c c c c c c c c c c c"
+        "c c c c c c c c c c c c"
+        "c c c c c c c c c c c c"
+        "b b b b b b b b b b b b"
+        "b b b b b b b b b b b b"
+        "d d d d d d d d d d d d"
+        "e e e e e e e e e e e e";
+    }
+    .image:nth-of-type(1){
+        border:2px solid rgba(1,200.255,.7);
+        height:5px;
+    
+    }
+    img{
+        border-radius: 30px;
+        display: inline-block;
+    }
+    .header{
+        grid-area: a;
+        border:2px solid #f1c;
+        background-image: linear-gradient(to right, #edf, #acf, #edf);
+        color:white;
+        text-align:center;
+        text-shadow: 3px 7px rgba(225,0,22,0.7);
+        word-spacing: 30px;
+        text-decoration:none!important;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+    }
+    .header h1:nth-of-type(1){
+        grid-area: a;
+        text-decoration:none!important;
+    }
+    .main  h1:nth-of-type(1){
+        background-color: aqua;
+        margin:10px;
+        /*position:fixed;*/
+        width:auto;
+        padding:10px;
+        padding-left: 25px;
+        text-decoration: none;
+        margin:auto;
+        text-align: center;
+        word-spacing: 15px;
+        letter-spacing: 8px;
+        text-shadow: 3px 4px rgba(225,0,22,0.7);
+        
+    
+    }
+    .main  h1:nth-of-type(2){
+        background-color: rgb(120, 145, 145);
+        margin:10px;
+        position:fixed;
+        width:80%;
+        padding:auto;
+    }
+    .main{
+        height:800px;
+        border:2px solid white;
+        overflow: scroll;
+        grid-area: c;
+        text-indent: 20px;
+        margin-left: 8px;
+        /*border-top-left-radius: 40px;*/
+    }
+    .section{
+        border:2px solid #f1c;
+        grid-area: d;
+        border-top-right-radius: 40px;
+    
+    }
+    
+    .aside{
+        border:2px solid #f1c;
+        grid-area: b;
+        overflow: scroll;
+        border-top-left-radius: 40px;
+    
+    }
+    
+    .footer{
+        border:2px solid #f1c;
+        grid-area: e;
+        height:100px;
+        
+    }
+    h1, h2, h3{
+        text-transform: uppercase;
+        text-decoration: underline;
+        font-family: cursive;
+        margin:12px;
+    }
+    p{
+        margin:15px;
+    }
+    span:nth-of-type(3){
+        color:#f15025;
+    }
+    
+}
