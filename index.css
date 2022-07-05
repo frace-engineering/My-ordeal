@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,200;1,400;1,700&display=swap');
 
 body{
-    background-color: #63a;
+    background-color: #edf;
     margin:20px;
     padding:0px;
     display:grid;
@@ -10,12 +10,12 @@ body{
     grid-template-rows: repeat(8, 1fr);
     grid-template-areas: 
     "a a a a a a a a a a a a"
-    "b b c c c c c c c c e e"
-    "b b c c c c c c c c e e"
-    "b b c c c c c c c c e e"
-    "b b c c c c c c c c e e"
-    "b b c c c c c c c c e e"
-    "b b c c c c c c c c e e"
+    "b b b c c c c c c e e e"
+    "b b b c c c c c c e e e"
+    "b b b c c c c c c e e e"
+    "b b b c c c c c c e e e"
+    "b b b c c c c c c e e e"
+    "b b b c c c c c c e e e"
     "d d d d d d d d d d d d";
 }
 .image:nth-of-type(1){
@@ -30,7 +30,7 @@ img{
 .header{
     grid-area: a;
     border:2px solid #f1c;
-    background-color: rgba(1, 100,255,0.5);
+    background-image: linear-gradient(to right, #edf, #acf, #edf);
     color:white;
     text-align:center;
     text-shadow: 3px 7px rgba(225,0,22,0.7);
