@@ -119,12 +119,12 @@ span:nth-of-type(3){
         grid-template-rows: repeat(8, 1fr);
         grid-template-areas: 
         "a a a a a a a a a a a a"
-        "b b b b b b b b b b b b"
-        "b b b b b b b b b b b b"
         "c c c c c c c c c c c c"
         "c c c c c c c c c c c c"
         "c c c c c c c c c c c c"
         "d d d d d d d d d d d d"
+        "b b b b b b b b b b b b"
+        "b b b b b b b b b b b b"
         "e e e e e e e e e e e e";
     }
     .image:nth-of-type(1){
