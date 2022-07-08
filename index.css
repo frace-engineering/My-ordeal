@@ -115,6 +115,7 @@ span:nth-of-type(3){
         margin:0px;
         padding:0px;
         display:grid;
+        overflow: scroll;
         grid-template-columns: repeat(12, 1fr);
         grid-template-rows: repeat(8, 1fr);
         grid-template-areas: 
