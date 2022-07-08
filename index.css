@@ -115,16 +115,15 @@ span:nth-of-type(3){
         margin:0px;
         padding:0px;
         display:grid;
-        height:1200px;
         grid-template-columns: repeat(12, 1fr);
         grid-template-rows: repeat(8, 1fr);
         grid-template-areas: 
         "a a a a a a a a a a a a"
-        "c c c c c c c c c c c c"
-        "c c c c c c c c c c c c"
-        "c c c c c c c c c c c c"
         "b b b b b b b b b b b b"
         "b b b b b b b b b b b b"
+        "c c c c c c c c c c c c"
+        "c c c c c c c c c c c c"
+        "c c c c c c c c c c c c"
         "d d d d d d d d d d d d"
         "e e e e e e e e e e e e";
     }
@@ -167,7 +166,7 @@ span:nth-of-type(3){
         word-spacing: 15px;
         letter-spacing: 8px;
         text-shadow: 3px 4px rgba(25,0,22,0.3);
-        
+        transition:4s;
     
     }
     .main  h1:nth-of-type(2){
